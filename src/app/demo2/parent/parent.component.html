@@ -1,0 +1,15 @@
+<div class="parent">
+	<div>Parent Component</div>
+
+	<!--
+	<ng-content></ng-content>
+	<p>{{child.name}}</p>
+	-->
+	
+	<my-child #chld></my-child>
+	<p>{{child.name}}</p>
+
+	<!--
+	<p *ngFor="let child of childs; let i=index"> {{child.name}} - {{i}} </p>
+	-->
+</div>
